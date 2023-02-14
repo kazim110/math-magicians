@@ -1,0 +1,31 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+.grid-container > div {
+  border: 1px solid rgba(236, 236, 236, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-input {
+  grid-column: 1/span 4;
+  background-color: #919191;
+  text-align: end;
+}
+
+.grid-0 {
+  grid-column: 1/span 2;
+}
+
+.right {
+  background-color: #ff843d;
+}
+
+.grid-item {
+  background-color: #d4d4d4;
+}
