@@ -1,4 +1,6 @@
 import './Calculator.css';
+import calculate from '../logic/calculate.js';
+import operate from '../logic/operate.js';
 
 const Calculator = () => (
   <div>
@@ -7,7 +9,7 @@ const Calculator = () => (
       <div className="grid-item grid-2">AC</div>
       <div className="grid-item grid-3">+/-</div>
       <div className="grid-item grid-4">%</div>
-      <div className="div-item right">/</div>
+      <div className="div-item right">÷</div>
       <div className="grid-item grid-6">7</div>
       <div className="grid-item grid-7">8</div>
       <div className="grid-item grid-8">9</div>
