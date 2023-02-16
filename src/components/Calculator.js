@@ -18,7 +18,7 @@ function Calculator() {
           {state.operation}
           {state.next}
         </div>
-        <button type="button" name="ac" className="grid-item ac" onClick={clickHandler}>AC</button>
+        <button type="button" name="AC" className="grid-item ac" onClick={clickHandler}>AC</button>
         <button type="button" name="+/-" className="grid-item plus-minus" onClick={clickHandler}>+/-</button>
         <button type="button" name="%" className="grid-item persent" onClick={clickHandler}>%</button>
         <button type="button" name="÷" className="grid-item divid right" onClick={clickHandler}>÷</button>
