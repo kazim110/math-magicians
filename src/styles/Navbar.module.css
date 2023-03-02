@@ -1,0 +1,9 @@
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav a {
+  margin: 10px;
+}

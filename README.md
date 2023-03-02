@@ -54,8 +54,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Add Name and Score to list**
-- **Refreshing the list using API**
+- **Doing Calculation**
+- **Good quote about math**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
